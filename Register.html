@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration Form</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="Register.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Raleway:wght@300&display=swap"
+    rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+  <nav>
+    <div class="logo">
+       E-Waste Facility Locator
+    </div>
+    <input type="checkbox" id="click">
+    <label for="click" class="menu-btn">
+    <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+       <li><a class="active" href="index.html">Home</a></li>
+       <!-- <div class="dropdown">
+         <li><a class="dropbtn">Login</a></li>
+         <div class="dropdown-content">
+             <a href="#">User Login</a>
+             <a href="#">Admin Login</a>
+             <a href="#">Facilitator Login</a>
+         </div>
+     </div> -->
+       <li><a href="feedback.html">Feedback</a></li>
+    </ul>
+
+    <div class="darkLight-searchBox">
+     <div class="dark-light">
+         <i class='bx bx-moon moon'></i>
+         <i class='bx bx-sun sun'></i>
+     </div>
+ </div>
+ </nav>
+
+
+  <center>
+    <form id="form">
+      <div>
+        <h1 class="color-heading">Registration Form </h1>
+      </div>
+
+      <div>
+        <p>Name</p><br>
+        <input type="text" placeholder="Name" id="name" autocomplete="on"><br><br>
+      </div>
+      <div>
+        <p>Email</p><br>
+        <input type="text" placeholder="Email" id="email" autocomplete="on"><br><br>
+      </div>
+      <div>
+        <p>Create Password</p><br>
+        <input type="password" placeholder="Create Password" id="password" autocomplete="on"><br><br>
+      </div>
+      <div>
+        <p>Confirm Password</p><br>
+        <input type="password" placeholder="Confirm password" id="confirm_password" autocomplete="on"><br><br>
+      </div>
+      <div>
+        <p>DOB</p><br>
+        <input type="date" class="date" id="date_of_birth" placeholder="dd-mm-yyyy" autocomplete="on"><br><br>
+      </div>
+      <div>
+        <p>Mobile No</p><br>
+        <input type="text" class="number" placeholder="+91" id="mobile_no" autocomplete="on"><br><br>
+      </div>
+      <div>
+        <p>Address</p><br>
+        <input type="text" placeholder="Enter your Education" id="education" autocomplete="on"><br><br>
+      </div>
+      <div>
+        <p>Perment Address</p><br>
+        <input type="text" placeholder="Collage/School name" id="college_name" autocomplete="on"><br><br>
+      </div>
+      <div>
+        <button type="submit" value="Register" id="register">Register</button>
+      </div>
+
+      <span>
+        Already have account? <a href="./login.html">Login now</a>
+      </span><br>
+    </form>
+  </center>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>my login</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="login.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo">
+         E-Waste Facility Locator
+      </div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+      <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+         <li><a class="active" href="index.html">Home</a></li>
+         <div class="dropdown">
+           <li><a class="dropbtn">Login</a></li>
+           <div class="dropdown-content">
+               <a href="#">User Login</a>
+               <a href="login.html">Admin Login</a>
+               <a href="#">Facilitator Login</a>
+           </div>
+       </div>
+         <li><a href="#">Feedback</a></li>
+      </ul>
+  
+      <div class="darkLight-searchBox">
+       <div class="dark-light">
+           <i class='bx bx-moon moon'></i>
+           <i class='bx bx-sun sun'></i>
+       </div>
+   </div>
+   </nav>
+    <section>
+      <center>
+        <form id="form">
+          <div>
+            <h1 class="heading">Log in</h1>
+          </div>
+          <br /><br />
+          <div>
+            <button id="login" type="button">Continue with Google</button>
+          </div>
+          <br />
+          <div>
+            <p>Username</p>
+            <br />
+            <input
+              type="text"
+              placeholder="Email"
+              id="email"
+              autocomplete="off"
+            /><br />
+          </div>
+          <br />
+          <div>
+            <p>Password <a href="#" class="forgot">forgot?</a></p>
+            <br />
+            <input
+              type="password"
+              placeholder="Enter your Password"
+              id="password"
+              autocomplete="off"
+            /><br />
+          </div>
+          <br /><br />
+          <div>
+            <input type="submit" value="Log In" />
+          </div>
+          <span class="span">
+            not have account? <a href="./Register.html">Register now</a> </span
+          ><br /><br />
+        </form>
+      </center>
+    </section>
+  </body>
+ 
+</html>
